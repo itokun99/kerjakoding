@@ -18,8 +18,18 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@components": ["./src/presentations/components"],
+      "@containers": ["./src/presentations/containers"],
+      "@pages": ["./src/presentations/pages"],
+      "@routes": ["./src/presentations/routes"],
+      "@apps": ["./src/presentations/apps"],
+      "@libs": ["./src/presentations/libs"],
+      "@configs": ["./src/core/configs"],
+      "@/*": ["./*"]
+    },
   },
   "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [{ "path": "./tsconfig.node.json" }],
 }
