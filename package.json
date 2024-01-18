@@ -22,11 +22,15 @@
   },
   "devDependencies": {
     "@emotion/eslint-plugin": "^11.11.0",
+    "@swc/plugin-emotion": "^2.5.108",
+    "@tanstack/router-cli": "^1.5.4",
+    "@tanstack/router-vite-plugin": "^1.5.4",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
+    "emotion-swc-plugin": "^0.0.5",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
@@ -35,6 +39,7 @@
     "prettier": "^3.2.4",
     "typescript": "^5.2.2",
     "vite": "^5.0.8",
+    "vite-plugin-stylelint": "^5.3.1",
     "vite-tsconfig-paths": "^4.3.1"
   }
 }
